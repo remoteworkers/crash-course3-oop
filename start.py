@@ -30,3 +30,15 @@ print('\nMenghitung Volume Kerucut')
 p5 = VolumeKerucut(4,6)
 print(p5.info())
 print(p5.hitung_volume())
+
+#Polymorpism : Kemampuan Object merespon berbeda terhadap pemanggilan method yang sama
+daftar_bangun_ruang = []
+daftar_bangun_ruang.append(p1)
+daftar_bangun_ruang.append(p2)
+daftar_bangun_ruang.append(p3)
+daftar_bangun_ruang.append(p4)
+daftar_bangun_ruang.append(p5)
+
+print('\nPolymorphism')
+for bangun_ruang in daftar_bangun_ruang:
+    print(bangun_ruang.info())
