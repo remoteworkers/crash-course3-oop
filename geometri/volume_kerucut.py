@@ -1,4 +1,7 @@
-class VolumeKerucut():
+from geometri.bangunruang import BangunRuang
+
+
+class VolumeKerucut(BangunRuang):
     def __init__(self, r, t):
     #fungsi yang dipanggil pertama kali
         self.r = r

@@ -1,11 +1,16 @@
-class Segitiga():
-    def __init__(self, a, t):
+#from geometri.bangunruang import BangunRuang
+from geometri.bangunruang import BangunRuang
+
+
+class Segitiga(BangunRuang):
+
+    def __init__(self, alas, tinggi):
     #fungsi yang dipanggil pertama kali
-        self.a = a
-        self.t = t
+        self.alas = alas
+        self.tinggi = tinggi
 
     def info(self):
-        return f'Ini adalah object dari segitiga dengan alas = {self.a} dan tinggi = {self.t}'
+        return f'Ini adalah object dari segitiga dengan alas = {self.alas} dan tinggi = {self.tinggi}'
 
     def hitung_luas(self):
-        return self.a * self.t /2
+        return self.alas * self.tinggi /2

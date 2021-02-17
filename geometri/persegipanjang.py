@@ -1,8 +1,7 @@
-import p as p
-import self as self
+from geometri.bangunruang import BangunRuang
 
 
-class PersegiPanjang():
+class PersegiPanjang(BangunRuang):
     def __init__(self, p, l):
     #fungsi yang dipanggil pertama kali
         self.p = p

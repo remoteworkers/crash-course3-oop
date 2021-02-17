@@ -1,4 +1,7 @@
-class BujurSangkar():
+from geometri.bangunruang import BangunRuang
+
+
+class BujurSangkar(BangunRuang):
     def __init__(self, s):
         self.s = s
 

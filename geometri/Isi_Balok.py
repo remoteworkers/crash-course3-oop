@@ -1,4 +1,7 @@
-class VolumePersegiPanjang():
+from geometri.bangunruang import BangunRuang
+
+
+class VolumePersegiPanjang(BangunRuang):
     def __init__(self, p, l, t):
     #fungsi yang dipanggil pertama kali
         self.p = p
